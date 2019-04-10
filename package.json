@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +13,8 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
-    "inquirer": "^6.2.2"
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.2",
+    "yargs": "^13.2.2"
   }
 }
